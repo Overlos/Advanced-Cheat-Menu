@@ -205,7 +205,7 @@ window = {
 					hbox = {
 						button_standard = {
 							blockoverride "primary_visible" {}
-							name = "advcm_loyalists"
+							name = "advcm_radicals"
 							onclick = "[ExecuteConsoleCommand('event advcm.6')]"
 							#onrightclick = "[ExecuteConsoleCommand('event advcm.7')]"
 							tooltip = "PPK_TEXT_BUTTON_12_TOOLTIP"
@@ -216,8 +216,8 @@ window = {
 						
 						button_standard = {
 							blockoverride "primary_visible" {}
-							name = "advcm_radicals"
-							onclick = "[ExecuteConsoleCommand('event advcm.4')]"
+							name = "advcm_loyalists"
+							onclick = "[ExecuteConsoleCommand('event advcm.7')]"
 							#onrightclick = "[ExecuteConsoleCommand('event advcm.5')]"
 							tooltip = "PPK_TEXT_BUTTON_13_TOOLTIP"
 							using = tooltip_ne
