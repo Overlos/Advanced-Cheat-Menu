@@ -828,7 +828,6 @@ types information_panel_bar_types {
 			}
 		}	
 	}
-}
 
 	type power_bloc_icon_button_widget = widget {
 
